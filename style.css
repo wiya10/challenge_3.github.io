@@ -1,0 +1,415 @@
+.navbar-light {
+  background-color: rgb(29 107 222 / 7%) !important;
+  padding-bottom: 0;
+}
+.offcanvas-end {
+  top: 0;
+  right: 0px;
+  width: 60%;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  transform: translateX(100%);
+}
+.offcanvas-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 7rem;
+}
+.ms-auto {
+  margin-left: auto !important;
+}
+@media only screen and (max-width: 700px) {
+  .ms-auto {
+    margin-right: 40%;
+  }
+  .container img {
+    margin-left: 8%;
+  }
+}
+/* end navbar */
+/* jumbotron */
+.jumbotron {
+  padding: 4rem 0rem 0rem 0rem;
+  background-color: rgb(25 93 193 / 6%) !important;
+  margin-right: 0px;
+  overflow: hidden;
+}
+.fs-2 {
+  font-size: calc(2rem + 0.6vw) !important;
+}
+.mb-5 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.konten {
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+.d-flex {
+  float: right;
+}
+.w-100 {
+  width: 100% !important;
+  height: 399px;
+}
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+/* end jumbotron */
+/* service */
+.services {
+  padding: 5rem 3rem;
+}
+.lead {
+  font-size: 14px;
+  font-weight: 400;
+}
+.img-service {
+  width: 100%;
+}
+.form-check-input:disabled ~ .form-check-label,
+.form-check-input[disabled] ~ .form-check-label {
+  opacity: 1.5;
+  font-size: 13px;
+  margin-left: 10px;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  line-height: -0.8;
+}
+.form-check {
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.5em;
+  margin-bottom: 1.12rem;
+}
+.form-check-input:checked {
+  background-color: #005ae0a1;
+  border-color: #0d6efdd1;
+}
+.form-check-input[type='checkbox'] {
+  border-radius: 1.25em;
+}
+.form-check-input {
+  width: 19px;
+  height: 19px;
+  margin-top: 0.25em;
+  vertical-align: top;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+}
+/* end service */
+/* why-us */
+.whyus {
+  padding: 0rem 3rem 3rem 3rem;
+}
+h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.card {
+  margin-top: 2rem;
+}
+/* end why-us */
+/* testimoni */
+.testimonial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.testimonial .main {
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+.testimonial .main .title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  margin: 0 0 16px;
+}
+
+.testimonial .main .lead {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: center;
+  margin: 0 0 40px;
+}
+
+.testimonial .main .carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.testimonial .main .carousel .carouselMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.testimonial .main .carousel .carouselMain .carouselItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContent,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentLeft,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentRight {
+  max-width: 42.9861vw;
+  background-color: #f1f3ff;
+  border-radius: 8px;
+  padding: 4.7916vw 2.22vw 4.7916vw 3.194vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 2.22vw;
+}
+
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContent .left img,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentLeft .left img,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentRight .left img {
+  height: 5.55vw;
+  width: 5.55vw;
+  margin-right: 3.194vw;
+}
+
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContent .right,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentLeft .right,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentRight .right {
+  width: 28.8194vw;
+}
+
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContent .right .stars img,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentLeft .right .stars img,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentRight .right .stars img {
+  height: 16px;
+  width: 16px;
+  margin: 0 0;
+}
+
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContent .right .text,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentLeft .right .text,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentRight .right .text {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  margin: 8px 10px;
+}
+
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContent .right .name,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentLeft .right .name,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentRight .right .name {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-left: 5px;
+}
+.testimonial .main .carousel .carouselControl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 24px;
+  width: 88px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.testimonial .main .carousel .carouselControl .left,
+.testimonial .main .carousel .carouselControl .right {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.testimonial .main .carousel .carouselControl .left img,
+.testimonial .main .carousel .carouselControl .right img {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.testimonial .main .carousel .carouselControl .left {
+  border: 1px solid #c4c4c4;
+}
+
+.testimonial .main .carousel .carouselControl .right {
+  background-color: #5cb85f;
+}
+
+@media only screen and (max-width: 700px) {
+  .testimonial .main .carousel .carouselMain .carouselItem .carouselContent,
+  .testimonial .main .carousel .carouselMain .carouselItem .carouselContentLeft,
+  .testimonial .main .carousel .carouselMain .carouselItem .carouselContentRight {
+    max-width: 76%;
+    min-width: 69%;
+    background-color: #f1f3ff;
+    margin: 0px 2.22vw;
+    flex-direction: column;
+  }
+  .testimonial .main .carousel .carouselMain .carouselItem .carouselContent .right .text,
+  .testimonial .main .carousel .carouselMain .carouselItem .carouselContentLeft .right .text,
+  .testimonial .main .carousel .carouselMain .carouselItem .carouselContentRight .right .text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 8px 50px;
+    text-align: center;
+  }
+  .testimonial .main .carousel .carouselMain .carouselItem .carouselContent .left img,
+  .testimonial .main .carousel .carouselMain .carouselItem .carouselContentLeft .left img,
+  .testimonial .main .carousel .carouselMain .carouselItem .carouselContentRight .left img {
+    height: 80px;
+    width: 100%;
+    margin-right: 20px;
+  }
+  .testimonial .main .carousel .carouselMain .carouselItem .carouselContent .right,
+  .testimonial .main .carousel .carouselMain .carouselItem .carouselContentLeft .right,
+  .testimonial .main .carousel .carouselMain .carouselItem .carouselContentRight .right {
+    width: 415px;
+  }
+
+  .testimonial .main .carousel .carouselMain .carouselItem .carouselContent .right .name,
+  .testimonial .main .carousel .carouselMain .carouselItem .carouselContentLeft .right .name,
+  .testimonial .main .carousel .carouselMain .carouselItem .carouselContentRight .right .name {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-left: 7px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .testimonial .main .carousel .carouselMain .carouselItem .carouselContentLeft,
+  .testimonial .main .carousel .carouselMain .carouselItem .carouselContentRight {
+    display: none;
+  }
+  .stars {
+    padding-left: 160px;
+  }
+}
+/* end testimoni */
+/* sewa */
+.mobil {
+  padding: 5rem;
+}
+.sewa {
+  background-color: rgba(12, 39, 129, 0.815);
+  height: 50%;
+  padding: 3rem 10rem;
+  color: white;
+}
+.konten.text-center {
+  padding-bottom: 3rem;
+}
+.konten.text-center span {
+  font-size: 12px;
+}
+
+@media (max-width: 700px) {
+  .sewa {
+    height: 20%;
+    width: 100%;
+    padding: 3rem 0rem;
+  }
+}
+/* end sewa */
+/* faq */
+.faq {
+  padding-bottom: 5rem;
+}
+.form-select {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 14px;
+  font-weight: 400;
+}
+.card-icon7 img {
+  width: 80%;
+  margin-left: 2px;
+}
+/* end faq */
+/* footer */
+.sosmed .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sosmed .icons .icon {
+  height: 32px;
+  width: 32px;
+  padding: 7.67px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #0d28a6;
+  margin-right: 16px;
+}
+
+.sosmed .icons .icon img {
+  height: 24px;
+  width: 24px;
+}
